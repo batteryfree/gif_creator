@@ -2,40 +2,28 @@ body {
   background-color: #1E2426;
 }
 
+.container {
+  width: 1024px;
+  margin: auto;
+  background-color: #29424B;
+}
+
 .header {
   display: flex;
- }
+  justify-content: space-between;
+}
 
-.logo {
+.header__logo {
+  width: 20%;
+  height: 100%;
+}
+
+.btnCreate {
 
 }
 
-.header__btn {
-
-}
-
-.header__menu {
-  color: #FFF;
-}
-
-.header__submenu {
-  display: none;
- }
-
-.header__submenu__item {
-
-}
-
-.header__signIn {
+.btnLogin {
   
-}
-
-.header__signIn__edit {
-
-}
-
-.header__signIn__btn {
-
 }
 
 .main {
