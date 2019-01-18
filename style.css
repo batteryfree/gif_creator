@@ -1,0 +1,56 @@
+body {
+  background-color: #1E2426;
+}
+
+.header {
+  display: flex;
+ }
+
+.logo {
+
+}
+
+.header__btn {
+
+}
+
+.header__menu {
+  color: #FFF;
+}
+
+.header__submenu {
+  display: none;
+ }
+
+.header__submenu__item {
+
+}
+
+.header__signIn {
+  
+}
+
+.header__signIn__edit {
+
+}
+
+.header__signIn__btn {
+
+}
+
+.main {
+
+}
+
+.main__images {
+
+}
+
+.main__image__img {
+
+}
+
+.footer {
+
+}
+
