@@ -3,39 +3,38 @@ body {
 }
 
 .container {
-  width: 1024px;
-  margin: auto;
   background-color: #29424B;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
+.header {display: flex;}
 
 .header__logo {
-  width: 20%;
+  width: 50%;
   height: 100%;
 }
 
-.btnCreate {
+.header__list {
 
 }
 
-.btnLogin {
-  
-}
-
-.main {
+.header_item {
 
 }
+
+.header__link {
+
+}
+
+.main {margin-top: 1em;}
 
 .main__images {
-
-}
+  margin-top: 0.2em;
+  text-align: center;
+  }
 
 .main__image__img {
-
+  width: 95%;
+  height: 100%;
 }
 
 .footer {
