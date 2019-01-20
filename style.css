@@ -10,16 +10,17 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
-  width: 12em;
+  width: 200px;
   height: 100%;
 }
 
 .header__icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin: 5px;
   padding: 5px;
   fill: white;
@@ -27,10 +28,10 @@ body {
   border: 1px #FFF solid;
 }
 
-.header__icon:focus {
+.header__icon:hover {
   fill: #29424B;
   background-color: #FFF;
-  border: #1E2426
+  border: 1px #1E2426 solid;
 }
 
 .header__list {
@@ -83,3 +84,64 @@ body {
   font-weight: 200;
 }
 
+/* min-width 767.98px*/
+
+@media (min-width: 767.98px) {
+
+  .header__logo {
+    width: 250px;
+  }
+  
+  .header__icon {
+    
+  }
+  
+  .header__icon:hover {
+
+  }
+  
+  .header__list {
+
+  }
+  
+  .header__item {
+    background-color: #1E2426;
+    margin: 5px;
+    padding: 15px 10px 15px 0;
+    height: 25px;
+    border: 1px #FFF solid;
+  }
+  
+  .header__link {
+    display: block;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    margin: o 15px 0 0;
+  }
+  
+  .presentations {
+  
+  }
+  
+  .presentations__date {
+
+  }
+  
+  .presentation {
+  
+  }
+  
+  .presentation__image {
+  
+  }
+  
+  .presentation__image__img {
+
+  }
+  
+  .presentation__text {
+
+  }
+
+}
