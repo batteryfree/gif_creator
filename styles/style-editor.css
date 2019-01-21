@@ -1,0 +1,19 @@
+.player {
+
+}
+
+.range {
+
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 2lpx solid #FFF;
+  background: rgb(47, 130, 199);
+}
+
+input[type=range]::-webkit-slider-thumb {
+
+}
