@@ -1,13 +1,14 @@
 body {
   background-color: #1E2426;
   font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
   background-color: #29424B;
 }
 
@@ -21,10 +22,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.header__item {
-
+  margin-right: 10px;
 }
 
 .header__link {
@@ -60,7 +58,6 @@ body {
 /* min-width 767.98px*/
 
 @media (min-width: 767.98px) {
-
   .footer__text {
     font-weight: 800;
   }
@@ -71,13 +68,16 @@ body {
 
 @media (min-width: 991.98px) {
 .container {
-    width: 1024px;
     margin: auto;
+    width: 1024px;
   }
 
 .header__logo {
   width: 200px;
   height: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header__link {
