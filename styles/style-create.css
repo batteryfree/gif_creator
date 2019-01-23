@@ -1,7 +1,14 @@
-.select {}
+.select {
+  color: #FFF;
+  text-align: center;
+  text-shadow: #466320 1px 1px 0;
+}
 
 .select__title-text {
-
+  margin: 10% 0 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 35px;
 }
 
 .select__text {
@@ -9,24 +16,76 @@
 }
 
 .select__local {
-
+  margin: 25px 0 0;
 }
 
 .select__local__picture {
+  position: relative;
+  width: 200px;
+  margin: 25px auto 0;
+  background-color: #b3e86b;
+}
 
+.select__btn-picture {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
 }
 
 .select_local__video {
-
+  position: relative;
+  width: 200px;
+  margin: 25px auto 0;
+  background-color: #b3e86b;
 }
 
+.select__btn-video {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
 
 .select__local__icon {
   display: none;
 }
 
-.select__url {
+.select__local__text {
+  margin: 0;
+  padding: 15px 0;
+  font-size: 21px;
+}
 
+.select__url {
+  color: #29424a;
+  margin-top: 15px;
+  width: 200px;
+  height: 20px;
+  font-size: 14px;
+}
+
+/* min-width 767.98px*/
+
+@media (min-width: 767.98px) {
+
+  .select__local__picture {
+    width: 300px;
+  }
+
+  .select_local__video {
+    width: 300px;
+  }
+
+  .select__url {
+    width: 350px;
+    margin-top: 25px;
+    height: 25px;
+  }
 }
 
 /* min-width 991.98px*/
@@ -36,24 +95,20 @@
   .select {
     padding-bottom: 25px;
     background-color: #95C752;
-    text-shadow: #466320 1px 1px 0;
-    margin: 25px auto 0;
-    color: #FFF;
-    text-align: center;
+    margin: 45px auto 0;
   }
 
   .select__title-text {
-    margin: 0;
-    padding: 50px 0 10px;
-    text-transform: uppercase;
     font-size: 40px;
+    padding-top: 40px;
+    margin: 0;
   }
 
   .select__text {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    margin: 15px 0 0;
+    margin: 55px 0 0;
     padding: 0 0 5px;
     display: block;
   }
@@ -72,11 +127,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 25px;
-    background-color: #b3e86b;
+  
   }
 
-  .select__local__picture:hover, .select__local__picture:focus {
-    background-color: rgb(66, 99, 23);
+  .select__local__picture:hover {
+    background-color: #466320;
   }
 
   .select_local__video {
@@ -87,12 +142,12 @@
     justify-content: space-around;
     align-items: center;
     padding: 25px;
-    background-color: #b3e86b;
   }
 
-  .select_local__video:hover, .select_local__video:focus {
+  .select_local__video:hover {
     background-color: #466320; 
   }
+
 
   .select__local__icon {
     width: 60px;
@@ -107,7 +162,6 @@
     width: 60%;
     height: 30px;
     font-size: 16px;
-    color: #29424a;
     padding-left: 10px;
   }
 }
