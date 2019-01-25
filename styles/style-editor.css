@@ -1,0 +1,62 @@
+div {
+  margin:0;
+  padding: 0;
+}
+
+.maker {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tools {
+  width: 66%;
+  overflow: hidden;
+}
+
+.tools__tracks {
+  background-color: #29424b;
+  height: 200px;
+  overflow: auto;
+}
+
+.track1 {
+    display: inline-flex;
+}
+
+.track1__img-wraper {
+  border: 1px #FFF solid;
+  background-color: #000;
+  margin: 5px;
+  width: 150px;
+  height: 94px;
+}
+
+.track1__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tools__settings {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.settings__range {
+  -webkit-appearance: none;
+  margin: 0;
+  margin-top: 25px;
+  height: 9px;
+  border-radius: 50px;
+  border: 1px #FFF solid;
+  background: linear-gradient(to left, #a4c0ca, #29424b);
+}
+
+.tools__effects {
+
+}
+
+.preview {width: 33%;
+  background-color: #000;
+}
