@@ -18,23 +18,47 @@ div {
   background-color: #29424b;
   height: 200px;
   overflow: auto;
+  border: 1px #8ea9b3 solid;
 }
 
 .track1 {
     display: inline-flex;
+    border-bottom: 3px #8ea9b3 solid;
 }
 
 .track1__img-wraper {
-  border: 1px #FFF solid;
+  border: 1px #FFF dashed;
   background-color: #000;
   margin: 5px;
-  width: 150px;
-  height: 94px;
+  width: 100px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .track1__img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.track2{
+  display: inline-flex;
+  border-bottom: 3px #8ea9b3 solid;
+}
+.track__frame {
+  width: 100px;
+  margin: 5px;
+  height: 75px;
+  fill: #FFF;
+  border: 1px #FFF dashed;
+  background: #0a1e25;
+}
+
+.track_text1 {background-color: #0a1e25;color: #FFF;margin: 5px;padding-left: 10px;}
+
+.track_effect1{
+  border-bottom: 3px #8ea9b3 solid;
 }
 
 .tools__settings {
