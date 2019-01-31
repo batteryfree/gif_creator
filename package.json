@@ -1,0 +1,23 @@
+{
+  "name": "gif_creator",
+  "version": "1.0.0",
+  "description": "GIF CREATOR",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batteryfree/gif_creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batteryfree/gif_creator/issues"
+  },
+  "homepage": "https://github.com/batteryfree/gif_creator#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
