@@ -1,17 +1,22 @@
-
-//server.js
+/*******server.js******/
 const express = require('express');
+const port = 8080;
 const path = require('path');
-const port = 8080 || 80;
+
 const app = express();
 
-app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'), (err) => {
-    if (err) {
-      res.status(500).send(lerr)
-    }
-  })
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'www')));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'www', 'index.html'),(err) => {
+        if (err) {
+            console.log(err);
+        };
+        console.log(req.url);
+    });
 });
 
-app.listen(port);
-
+app.listen(port, () => {
+    console.log(`Server starter, port: ${port}`);
+});
