@@ -1,0 +1,128 @@
+.video-cut {
+  font-family: "Fira Sans";
+  display: flex;
+  position: absolute;
+  width: 624px;
+  height: 215px;
+  left: 0;
+  right: 0;
+  top: 150px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 10px 50px #0007;
+  background-image: linear-gradient(to right, #242b36 0%, #353e4e 100%);
+}
+
+.close-icon{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  fill: #bbc1cc;
+  right: 0;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  fill: #ee4466;
+}
+
+.player {
+  width: 250px;
+  border: 1px #bbc1cc solid;
+  left: 15px;
+  background-color: #000;
+  margin: 5px;
+}
+
+.tools {
+  width: 55%;
+}
+
+.title-txt{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #FFF;
+}
+
+/* START range style */
+
+.range-label {
+  font-size: 10px;
+  position: relative;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 9px;
+  color: #bbc1cc;
+  height: 30px;
+  width: 30px;
+  border: 1px #bbc1cc solid;
+  border-radius: 50px;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.range-style{
+  -webkit-appearance: none;
+  height: 1px;
+  width: 93%;
+  background-color: #bbc1cc;
+  margin-left: 20px;
+}
+
+.range-style:focus {
+  outline: none;
+}
+
+.range-style::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 10px;
+  height: 25px;
+  background-color: #bbc1cc;
+  border-radius: 50px;
+}
+
+.label-txt {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #bbc1cc99;
+  font-size: 12px;
+}
+
+/* END range style*/
+
+.add-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  background-color: #35bd6a;
+  border-radius: 50px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+}
+
+.add-btn:hover {
+  background-color: #eb782c;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
