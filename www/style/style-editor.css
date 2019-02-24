@@ -1,0 +1,76 @@
+.tools {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 25px auto;
+  box-shadow: 0 10px 20px #0008;
+  background-image: linear-gradient(to right, #343c4b, #3a4253);
+  border-radius: 5px;
+}
+
+.tools__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 9px;
+  /* overflow: hidden; */
+}
+
+.button {
+  width: 30%;
+  height: 30px;
+  box-shadow: 0 0 18px 2px rgba(0, 0, 0, 0.5);
+  background-color: #44cc88;
+  color: #242a36;
+  font-family: "Fira Sans";
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #eb782c;
+  color: #FFF;
+}
+
+.text-effects {
+  overflow-x: auto;
+  height: 65%;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  scrollbar-color: #4c8 #3a4253;
+  scrollbar-width: thin;
+}
+
+.text-effect {
+  width: 110px;
+  height: 82px;
+  margin: 10px;
+  box-shadow: 0 10px 20px #0008;
+  background-image: linear-gradient(to right, #3f4858, #3b4253);
+  border-radius: 5px;
+}
+
+.wraper-input-text {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 10px 0;
+}
+
+.input-text {
+  width: 93%;
+  height: 25px;
+  background-color: #bec4ce;
+  border-radius: 5px;
+  color: #242a36;
+  font-family: "Fira Sans";
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 5px;
+  margin: auto;
+}
