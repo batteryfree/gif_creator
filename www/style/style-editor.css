@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 9px;
-  /* overflow: hidden; */
+   overflow: hidden;
 }
 
 .button {
@@ -73,4 +73,56 @@
   font-weight: 500;
   padding-left: 5px;
   margin: auto;
+}
+
+/*tracker*/
+
+.tracker {
+  overflow: auto;
+  width: 900px;
+  height: 200px;
+  box-shadow: 0 10px 20px #0008;
+  background-image: linear-gradient(to right, #2b323f, #3b4253);
+  border-radius: 5px;
+  margin: 25px auto;
+}
+
+.track-1 {
+  margin: 10px;
+  display: inline-flex;
+}
+
+.frame {
+  position: relative;
+  width: 110px;
+  height: 82px;
+  box-shadow: 0 10px 20px #0008;
+  margin-left: 5px;
+  background-image: linear-gradient(to right, #3f4858, #3b4253);
+}
+
+.track-text-1 {
+  height: 26px;
+  background-color: #bec4ce;
+  color: #242a36;
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.frame__close {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  fill: #bbc1cc;
+  right: 0;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.frame__close:hover {
+  fill: #ee4466;
 }
